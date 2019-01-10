@@ -10,7 +10,8 @@ How to Use
 
 Scripting Interface
 ---
-`CmdPrintThreaded(string _filePath)` asks for path of the file which you want to print. It opens cmd.exe and calls `rundll32 C:\WINDOWS\system32\shimgvw.dll,ImageView_PrintTo "c:\MyDir\MyPicture.png" "My Printer"` (eg. rundll32 C:\WINDOWS\system32\shimgvw.dll,ImageView_PrintTo "C:\Users\Gim\Desktop\Test.png" "Canon TS8100 series")
+`CmdPrintThreaded(string _filePath)` asks for path of the file which you want to print. It opens cmd.exe and calls `rundll32 C:\WINDOWS\system32\shimgvw.dll,ImageView_PrintTo "c:\MyDir\MyPicture.png" "My Printer"` to print your file!
+(e.g. rundll32 C:\WINDOWS\system32\shimgvw.dll,ImageView_PrintTo "C:\Users\Gim\Desktop\Test.png" "Canon TS8100 series")
 
 `StartCheckIsPrintingDone()` starts a coroutine. It opens cmd.exe and calls [prnjobs.vbs -l](http://www.windowscommandline.com/prnjobs-vbs/) and checks the number of print jobs. The coroutine does this check every `interval_checkIsPrintingDone` seconds. If the print job count becomes bigger than 0 and returns back to 0 again, we assume the print job is done and the coroutine will stop.
 
