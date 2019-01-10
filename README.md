@@ -17,6 +17,10 @@ Scripting Interface
 
 You should adjust the check interval, or figure out another appropriate way for you to check if the printing is done because every printer's performance and behavior vary. Of course if you have a better idea please share it :)
 
+Note
+---
+Only tested on Windows 10.
+
 Reference
 ---
 [How to get the output of a System.Diagnostics.Process?](https://stackoverflow.com/questions/1390559/how-to-get-the-output-of-a-system-diagnostics-process)
