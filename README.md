@@ -21,7 +21,7 @@ Note
 ---
 Only tested on Windows 10.
 
-TODO
+To do
 ---
 Implement threading.
 
