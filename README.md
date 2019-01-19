@@ -21,6 +21,10 @@ Note
 ---
 Only tested on Windows 10.
 
+TODO
+---
+Implement threading.
+
 Reference
 ---
 [How to get the output of a System.Diagnostics.Process?](https://stackoverflow.com/questions/1390559/how-to-get-the-output-of-a-system-diagnostics-process)
