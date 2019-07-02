@@ -1,6 +1,10 @@
 # UnityPrintingTool
 Simple scripts to control printers with Unity. 🖨
 
+<p align="center">
+<img src="https://media.giphy.com/media/vKzZQTj2BoCAw/giphy.gif">
+</p>
+
 How to Use
 ---
 - Add PrintTool.cs to a gameobject in your scene.
