@@ -11,7 +11,7 @@ How to Use
 - Add **PrintTool.cs** to a gameobject in your scene.
 - In the inspector, type in the name of your printer (you can find it from Contol Panel - Devices and Printers)
 - (Optional) Type in the interval (in seconds). This will be used to check if the printing is done.
-- Then you can get access to the **PrintTool** class and call methods as mentioned below. There is an example scene ##Test_PrintingTool.unity## in this project.
+- Then you can get access to the **PrintTool** class and call methods as mentioned below. Also there is an example scene **Test_PrintingTool.unity** in this project.
 
 Scripting Interface
 ---
