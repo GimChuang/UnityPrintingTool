@@ -3,7 +3,7 @@ Simple scripts to control printers with Unity. 🖨
 
 <p align="center">
 <img src="https://media.giphy.com/media/vKzZQTj2BoCAw/giphy.gif">
-<br><b>An impatient printer user from <a href="https://media.giphy.com/media/vKzZQTj2BoCAw/giphy.gif">Giphy</a>.</b>
+<br><b>( an impatient printer user from <a href="https://media.giphy.com/media/vKzZQTj2BoCAw/giphy.gif">Giphy</a> )</b>
 </p>
 
 How to Use
